@@ -1,0 +1,9 @@
+{
+	"type": "movie",
+	"title": "Friday the 13th",
+	"actors": [
+		{"name": "Kevin Bacon"},
+		{"name": "Kane Hodder"},
+		{"name": "Adrienne King"}
+	]
+}

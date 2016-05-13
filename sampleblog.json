@@ -1,0 +1,11 @@
+{
+	"type": "blog",
+	"title": "RevConf on Friday the 13th: amazing!",
+	"publishDate": "2016-05-13",
+	"text": "...",
+	"comments": [
+		{"name": "Jason", "comment": "Terrifyingly great."},
+		{"name": "Freddy", "comment": "I volunteer for your Halloween talk"},
+		{"name": "Chucky", "comment": "Not bad for someone hiding behind a hockey mask"}
+	]
+}

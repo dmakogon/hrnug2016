@@ -24,11 +24,11 @@ return m,actors;
 #### reverse the aggregation: Show movie collection for each actor
 match (a:Actor)-[:ACTS_IN]->(m:Movie)
 where m.title starts with "Friday the 13th"
-and count(collect.title) > 1
-return collect(m.title), a.name
+with collect(m.title) as titles,a
+return titles, a.name
 
 #### Find actors who appeared in more than one Fri-the-13th movie
-
+match (actor:Actor)-[:ACTS_IN]->(movie:Movie) 
 where movie.title starts with "Friday the 13th"
 with collect(movie) as movies,count(movie.title) as moviecount,actor
 where moviecount > 1
